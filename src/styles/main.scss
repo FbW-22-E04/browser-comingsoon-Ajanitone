@@ -3,10 +3,15 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
 }
 
 body {
-  display: grid;
+  display: flex;
   height: 100vh;
   font-family: sans-serif;
 }
@@ -18,5 +23,7 @@ main {
 }
 
 @keyframes rota {
-  100% { transform: rotate(360deg) }
+  100% {
+    transform: rotate(360deg);
+  }
 }
